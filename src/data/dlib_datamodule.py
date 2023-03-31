@@ -172,7 +172,7 @@ class DlibDataModule(LightningDataModule):
         self,
         data_train: DlibDataset,
         data_test: DlibDataset,
-        data_dir: str = "data/ibug_300W_large_face_landmark_dataset",
+        data_dir: str = "/data/facial_landmarks/ibug_300W_large_face_landmark_dataset",
         train_val_test_split=[5_666, 1_000],
         transform_train: Optional[Compose] = None,
         transform_val: Optional[Compose] = None,

@@ -4,7 +4,8 @@ defaults:
   - transform_train: cutout.yaml
   - transform_val: default.yaml
 
-data_dir: ${paths.data_dir}/ibug_300W_large_face_landmark_dataset
+# data_dir: ${paths.data_dir}/ibug_300W_large_face_landmark_dataset
+data_dir: /data/facial_landmarks/ibug_300W_large_face_landmark_dataset
 batch_size: 16
 train_val_test_split: [5_666, 1_000]
 num_workers: 0
